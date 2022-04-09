@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.arif{
+    clear: both;
+}
+/* nav part start */
+.container_nav{
+    width: 80%;
+    /* margin: 0 auto; */
+    margin: 0px 0px 0px 132px;
+}
+nav{
+    background-color: #333333;
+    text-align: center;
+    position: sticky;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav .logo{
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    
+}
+nav .logo span{
+    color: #32a848;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    position: relative;
+}
+nav ul li{
+    float: left;
+    display: inline-block;
+    background: #333333;
+    margin: 0 5px;
+} 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px ;
+}
+nav ul li a:hover{
+    color: #32a848;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #32a848,
+                0 0 5px #95ffa9;
+}
+    /* navbar part end */
+
+
+/* banner_part css code start */
+.flexible-conainer{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    padding-bottom: 100px;
+}
+.flexible-box{    
+    width: 45%;
+    float: left;
+    display: block;
+    margin: 0 10px;
+    padding-left: 9.5%;
+}
+.ban_part h1{
+    margin-top: 120px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #333333;
+    border-left: 4px solid #32a848;
+    padding-left: 1rem;
+}
+.color_highlight{
+    color: #32a848;
+}
+.ban_part p{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.ban_part h4{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #434343;
+
+}
+.ban_btn{
+    margin-top: 30px;
+}
+.ban_btn a{
+    color: #fff;
+    padding: 12px 22px;
+    background-color: #32a848;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.flexible-box img{
+    width: 70%;
+    margin-left: 5%;
+}
+#header_sec{
+    background-image: url(/images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: 90%;
+    background-position-y: 40%;
+    padding-bottom: -5rem;
+}
+
+/* banner_part css code end */
+
+/* my mission part start */
+
+.mission_part{
+    margin: 60px 0;
+}
+.mission_head h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #13103A;
+}
+.mission_box{
+    margin-left: 12%;
+}
+.single-box{
+    margin: 50px 0;
+    float: left;
+    margin-left: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgb(204, 241, 204);
+    padding: 0;
+}
+.single-box img{
+    width: 28%;
+    margin-top: 30px;
+}
+.single-card-details h3{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;   
+}
+.single-card-details p{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #424242;
+}
+#mission{
+    background-color:  rgba(59, 248, 106, 0.459);
+}
+#vission{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#goal{
+    background-color:  #59f76085;
+}
+/* my mission part end */
+
+
+/* develop with limit part start */
+#developer_sec{
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+.dev_part{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-size:13%;
+    background-position-x: 8%;
+    background-position-y: 30%;
+}
+.develop_img{
+    width: 35%;
+    float: left;
+    /* padding-right: 20px; */
+}
+.develop_img img{
+    width: 65%;
+    margin-left: 37%;
+}
+.develop_con{
+    width: 55%;
+    float: left;
+    margin-left: 120px;
+}
+.develop_con h4{
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.develop_con p{
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+/* develop with limit part end */
+
+
+
+/* global part start */
+#global_sec{
+    height: 400px;
+    margin-bottom: 50px;
+}
+.global_part{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:13%;
+    background-position-x: 90%;
+    background-position-y: 98%;
+}
+.global_img{
+    width: 38%;
+    float: right;
+}
+.global_img img{
+    width: 65%;
+    margin-left: -30px;
+}
+.global_con{
+    width: 45%;
+    float: left;
+    margin-left: 170px;
+}
+.global_con h4{
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.global_con p{
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+/* global part start */
+
+
+/* ----------corona app part start----------- */
+#corona_app{
+    height: 500px;
+}
+.app_shape{
+    background-image: url(../images/shapes/app1.png);
+    background-repeat: no-repeat;
+    background-size:13%;
+    background-position-x: 16%;
+    background-position-y: 33%;
+}
+.app_shape_2{
+    background-image: url(../images/shapes/app2.png);
+    background-repeat: no-repeat;
+    background-size:16%;
+    background-position-x: 54%;
+    background-position-y: 99%;
+}
+.app_part{
+    margin-top: 80px;
+}
+.app_img{
+    width: 38%;
+    float: left;
+}
+.app_img img{
+    width: 50%;
+    margin-left: 50%;
+}
+.app_con{
+    width: 45%;
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.app_con h4{
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.app_con p{
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3E3E3E;
+}
+
+/* ----------corona app part end----------- */
+
+
+
+/* ----------footer part start----------- */
+footer{
+    margin-top: 200px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer_con{
+    padding: 10px 0;
+}
+.footer_con h1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.footer_con p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #D9DBE1
+}
+
+/* ----------footer part end----------- */
